@@ -1,0 +1,11 @@
+.mainDiv {
+    display: flex;
+    width: auto;
+    height: 100vh !important;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #2525F3;
+    max-width: 980px;
+}

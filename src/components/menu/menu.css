@@ -1,0 +1,30 @@
+.main-sub-menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 34px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+-nav .main-sub-menu {
+    display: inline-block;
+}
+
+.sub-menu-item {
+    display: inline-block;
+    padding: 20px;
+}
+
+.sub-menu-link {
+    display: inline-block;
+}
+
+.sub-menu-text {
+    font-size: 24px;
+}
