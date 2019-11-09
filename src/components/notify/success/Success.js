@@ -1,7 +1,7 @@
 import React from "react";
 import './success.css';
 
-const Success = () => {
+const Success = (props) => {
   return (
     <div className="notify">
       <div className="success">
@@ -9,10 +9,10 @@ const Success = () => {
           The number is valid on the specified date.
         </div>
         <div>
-          <strong>Trader Name: </strong>
+          <strong>Trader Name: {props.number}</strong>
         </div>
         <div>
-          <strong>Trader Address: </strong>
+          <strong>Trader Address: {props.address}</strong>
         </div>
       </div>
     </div>
