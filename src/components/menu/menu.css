@@ -28,3 +28,18 @@
 .sub-menu-text {
     font-size: 24px;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    font-weight: 700;
+}
+
+a:active {
+    color: red;
+    font-weight: 700;
+}

@@ -4,6 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `for npm install`
+
+You should delete yarn.lock  and package-lock.json and you should enter a 'npm i' command in the command line.
+
+### `npm start`
+
+You should 'npm start' command in the command line. 
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
