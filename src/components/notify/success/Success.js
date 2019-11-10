@@ -9,7 +9,7 @@ const Success = (props) => {
           The number is valid on the specified date.
         </div>
         <div>
-          <strong>Trader Name: {props.number}</strong>
+          <strong>Trader Name: {props.name}</strong>
         </div>
         <div>
           <strong>Trader Address: {props.address}</strong>

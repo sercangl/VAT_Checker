@@ -8,6 +8,7 @@ const Menu = props => {
       <div>
         <div className="sub-menu-item">Home</div>
         <div className="sub-menu-link">Contact</div>
+        
       </div>
     </div>
   );

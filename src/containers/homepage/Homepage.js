@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import "./homepage.css";
 import Layout from "../../layout/Layout";
 import Title from "../../components/title/Title";
 import Content from "../../components/content/Content";
@@ -49,7 +48,7 @@ const Homepage = () => {
           {data !== null ? (
             !isError ? (
               <Success
-                number={data.trader_name}
+                name={data.trader_name}
                 address={data.trader_address}
               />
             ) : (
